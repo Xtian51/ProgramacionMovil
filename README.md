@@ -876,11 +876,9 @@
       <div class="req"><div class="req-num">3</div><div>Implementar el patrón completo: <strong>@Database → Repository → ViewModel → Activity</strong>. El ViewModel debe ser <code>AndroidViewModel</code>.</div></div>
       <div class="req"><div class="req-num">4</div><div>La UI muestra un <strong>RecyclerView</strong> con los productos y un <strong>FAB</strong> para agregar. Al hacer clic en un ítem se abre la Activity de edición con los datos precargados.</div></div>
       <div class="req"><div class="req-num">5</div><div>Agregar un <strong>Spinner</strong> o botones de filtro para mostrar solo los productos de una categoría, usando una <code>@Query</code> con parámetro en el DAO.</div></div>
-      <div class="req"><div class="req-num star">⭐</div><div><strong>Punto extra:</strong> Agregar en el DAO una <code>@Query</code> que retorne el total de productos y el valor total del inventario (suma de cantidad × precio), y mostrarlo en un TextView de resumen.</div></div>
-    </div>
     <div class="entrega">
       <strong>📦 Entrega</strong>
-      <p>Proyecto en .zip. Verificar que al cerrar y reabrir la app los datos persisten.</p>
+      <p>Verificar que al cerrar y reabrir la app los datos persisten.</p>
     </div>
   </div>
 
